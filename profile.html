@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/profile.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Logo" width="140">
+            </div>
+            <nav class="nav">
+                <a href="index.html">Trang chủ</a>
+                <a href="contact.html">Liên hệ</a>
+                <a href="profile.html" class="active">Hồ sơ</a>
+                <a href="cart.html" class="cart-link">Giỏ hàng</a>
+                <a href="#" id="logoutBtn" class="logout-btn">Đăng xuất</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PROFILE CONTENT -->
+    <section class="profile container">
+        <h2>Thông tin cá nhân</h2>
+        <div class="profile-card">
+            <p><strong>Họ và tên:</strong> <span id="userFullname"></span></p>
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+            <p><strong>Số điện thoại:</strong> <span id="userPhone"></span></p>
+        </div>
+    </section>
+
+
+    <script src="assets/js/profile.js"></script>
+</body>
+</html>

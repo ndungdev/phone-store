@@ -1,0 +1,38 @@
+.register {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.register-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.register-form button {
+    margin-top: 20px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}

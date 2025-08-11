@@ -1,0 +1,24 @@
+.profile {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.profile-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    text-align: left;
+}
+
+.profile-card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.logout-btn {
+    color: red;
+    font-weight: bold;
+}
